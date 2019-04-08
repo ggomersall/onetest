@@ -1,0 +1,27 @@
+@import '../BaseStyles/variables';
+
+.logo {
+  margin: 5px auto;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 25px;
+  sup {
+    position: relative;
+    font-size: 14px;
+    top: -8px;
+  }
+}
+.logo a {
+  text-decoration: none;
+  border: 1px solid indianred;
+  padding: 5px;
+  color: $black19;
+}
+
+.logo.filled {
+  a{
+    color: #fff;
+    background: indianred;
+  }
+}
+
