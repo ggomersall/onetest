@@ -1,0 +1,35 @@
+@import '../BaseStyles/mixins';
+
+.product__card {
+  width: 33%;
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product__card-image, .product__card-info {
+  margin-bottom: 20px;
+}
+
+.product__card-image  {
+  text-align: center;
+  img{
+    // max-height: 250px;
+    // width: 100%;
+    max-height: 200px;
+  }
+}
+
+.product__card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__card-buttons {
+  .btn {
+    width: 50%;
+  }
+  .btn-grey {
+    @include btn-grey;
+  }
+}

@@ -1,0 +1,9 @@
+@import './variables';
+
+@mixin btn-grey {
+  background: $lightgrey;
+  color: $black19;
+  &:hover {
+    opacity: 0.8;
+  }
+}
