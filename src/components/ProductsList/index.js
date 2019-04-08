@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import './styles.scss';
+import ProductItem from '../ProductItem';
 
 class ProductsList extends Component {
 
@@ -30,8 +32,8 @@ class ProductsList extends Component {
       <div className="product-list__wrapper">
         {products.map((product, i) => {
           return (
-            <p key={i} >{product.title}</p>
-          )
+            <ProductItem key={i} product={product} />
+          );
         })}
       </div>
     ) : null;
