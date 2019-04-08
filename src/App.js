@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './App.scss';
 
+import Header from './components/Header';
+import ProductsList from './components/ProductsList';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <div className="container">
-            <h1 className="logo">
-              <a href="#" >Eclectees<sup>co</sup></a>
-            </h1>
-          </div>
-        </header>
+        <Header />
+
+        <div className="container">
+          <ProductsList />
+        </div>
       </div>
     );
   }
