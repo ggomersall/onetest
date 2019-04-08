@@ -1,0 +1,35 @@
+@import '../BaseStyles/variables';
+
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer-content__wrapper {
+  border-top: 2px solid $black19;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copy-content, .legal-links__wrapper {
+  font-size: 13px;
+  margin: auto 0;
+}
+
+.legal-links__wrapper {
+  display: flex;
+  flex-direction: row;
+  .link:nth-child(n + 2) {
+    &:before {
+      content: "|";
+      margin: 0 5px;
+      color: indianred;
+    }
+  }
+  .link a {
+    color: indianred;
+  }
+}

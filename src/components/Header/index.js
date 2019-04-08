@@ -1,6 +1,6 @@
 import React from 'react';
-
 import './styles.scss';
+import Logo from '../Logo';
 
 const Header = () => {
 
@@ -8,9 +8,7 @@ const Header = () => {
 
     <header className="App-header">
       <div className="container">
-        <h1 className="logo">
-          <a href="#" >Eclectees<sup>co</sup></a>
-        </h1>
+        <Logo />
       </div>
     </header>
   
