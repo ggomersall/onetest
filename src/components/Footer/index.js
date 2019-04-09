@@ -19,8 +19,6 @@ const Footer = () => {
       }
     ]
   }
-  console.log(anchorUrls)
-  
   return (
     <footer>
       <div className="footer-content__wrapper container">
