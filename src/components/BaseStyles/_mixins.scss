@@ -4,6 +4,15 @@
   background: $lightgrey;
   color: $black19;
   &:hover {
-    opacity: 0.8;
+    background: lighten($color: $lightgrey, $amount: 5);
+  }
+}
+
+@mixin btn-red {
+  background: indianred;
+  color: #fff;
+  &:hover {
+    // background: darken($color: indianred, $amount: 20);
+    background: lighten($color: indianred, $amount: 5);
   }
 }

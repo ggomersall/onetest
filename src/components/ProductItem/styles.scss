@@ -1,10 +1,13 @@
 @import '../BaseStyles/mixins';
 
 .product__card {
-  width: 33%;
+  width: 32%;
   background: white;
   padding: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+  min-height: 330px;
 }
 
 .product__card-image, .product__card-info {
@@ -14,22 +17,35 @@
 .product__card-image  {
   text-align: center;
   img{
-    // max-height: 250px;
-    // width: 100%;
     max-height: 200px;
   }
 }
 
+
 .product__card-info {
   display: flex;
   justify-content: space-between;
+  min-height: 90px;
+
+  .product-title {
+    width: 150px;
+  }
+}
+
+.product__card__title {
+  min-height: 200px;
+  margin-bottom: 10px;
 }
 
 .product__card-buttons {
-  .btn {
-    width: 50%;
-  }
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+
   .btn-grey {
     @include btn-grey;
+  }
+  .btn-red {
+    @include btn-red;
   }
 }
