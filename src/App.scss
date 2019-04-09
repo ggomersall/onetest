@@ -1,4 +1,29 @@
 
+.product-cart__wrapper {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 50px;
+}
 
 
+.cart__count {
+  background: indianred;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 11px;
+  width: auto;
+  height: auto;
+  padding: 5px 8px;
+  position: relative;
+  top: -2px;
+  left: 10px;
+}
 
+.--right {
+  float: right;
+}
+
+.--left {
+  float: left;
+}

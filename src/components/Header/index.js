@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import Logo from '../Logo';
+import MiniCart from '../MiniCart';
 
 const Header = () => {
 
@@ -8,7 +9,12 @@ const Header = () => {
 
     <header className="App-header">
       <div className="container">
-        <Logo />
+        <div className="--left">
+          <Logo />
+        </div>
+        <div className="--right">
+          <MiniCart />
+        </div>
       </div>
     </header>
   
