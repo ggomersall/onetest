@@ -20,11 +20,13 @@ There is no Redux in the project, if I there had been more time I would have lik
 *****
 
 #### Future Development
-If there had been more time, I would have liked to have added Redux to the project as mentioned above.
+I would have liked to have made this full responsive, it isn't at the moment and works best on 1200px above 😕
 
-As well as implementing the cart feature using Redux, i would have done the sorting with redux as well.
+I would have liked to have added Redux to the project as mentioned above.
 
-I would have also liked to have added the modal for showing the quick view for the products.
+As well as implementing the cart feature using Redux, I would have liked to have worked on the sorting functionality with redux as well.
+
+I would have also liked to have finished styling the modal (make it more sleek) for showing the quick view of the products.
 
 
 I look forward to hearing your feedback.
