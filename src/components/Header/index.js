@@ -3,7 +3,7 @@ import './styles.scss';
 import Logo from '../Logo';
 import MiniCart from '../MiniCart';
 
-const Header = () => {
+const Header = ({cart, cartTotal, handleAdd}) => {
 
   return(
 
@@ -13,7 +13,7 @@ const Header = () => {
           <Logo />
         </div>
         <div className="--right">
-          <MiniCart />
+          <MiniCart cart={cart} cartTotal={cartTotal} handleAdd={handleAdd}/>
         </div>
       </div>
     </header>
