@@ -37,9 +37,8 @@ class ProductItem extends Component {
 
   render() {
     const {product, handleClick} = this.props
-    console.log(product)
+    
     return(
-      // <div className="product">
       
         <div className="product__card">
           <div className="product__card-image">
@@ -89,7 +88,6 @@ class ProductItem extends Component {
           </div>
         </div>
 
-      // </div>
     )
   }
   
